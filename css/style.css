@@ -1,0 +1,82 @@
+/* Обнуляющий стиль */
+@import url(null.css);
+
+/* &display=swap Для подключения шрифта */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+@font-face {
+	font-family: Taviraj;
+	src: url("../fonts/Taviraj-Regular.woff2") format("woff2"), url("../fonts/Taviraj-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	color: #424551;
+	font-weight: 400;
+}
+.wrapper {
+	min-height: 100%;
+	width: 810px;
+	margin: 0 auto;
+}
+
+.who {
+	margin: 0 0 16px 0;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1e212c;
+}
+.why {
+	margin: 0 0 40px 0;
+	font-size: 46px;
+	color: #1e212c;
+}
+.block-list {
+	margin: 0 0 48px 0;
+}
+.list li {
+	padding: 0 0 0 32px;
+	background: url("../img/Vector.svg") 0 0 no-repeat;
+	width: 390px;
+	margin: 0 0 24px 0;
+}
+.list li:last-child {
+	margin: 0;
+}
+.block-button {
+	margin: 0 0 80px 0;
+}
+.button {
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	text-align: center;
+	width: 161px;
+	height: 44px;
+	padding: 16px;
+	border-radius: 4px;
+	color: #fff;
+}
+a.button {
+	color: #fff;
+}
+.title-footer {
+	font-family: "Taviraj", sans-serif;
+	font-size: 36px;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	color: #333333;
+}
+
+.title-footer::after {
+	content: "";
+	display: block;
+	height: 1px;
+	width: 65px;
+	background: #333333;
+	margin: 8px 0 0 0;
+}
